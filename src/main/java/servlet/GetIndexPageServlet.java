@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import model.User;
 
+
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -21,6 +22,7 @@ public class GetIndexPageServlet extends HttpServlet {
         users = new CopyOnWriteArrayList<>();
         users.add(new User("Alexander", 35));
         users.add(new User("Alina", 30));
+        users.add(new User("Semen", 8));
     }
 
     @Override
