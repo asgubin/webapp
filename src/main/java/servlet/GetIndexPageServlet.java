@@ -23,6 +23,7 @@ public class GetIndexPageServlet extends HttpServlet {
         users.add(new User("Alexander", 35));
         users.add(new User("Alina", 30));
         users.add(new User("Semen", 8));
+        users.add(new User("Polina", 4));
     }
 
     @Override
